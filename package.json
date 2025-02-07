@@ -1,0 +1,27 @@
+{
+  "name": "imagewatermark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "i": "^0.3.7",
+    "image-watermark": "^0.0.7",
+    "jimp": "^0.16.1",
+    "jimp-watermark": "^1.1.0",
+    "npm": "^11.1.0",
+    "purejswatermark": "^0.0.7",
+    "watermark-jimp": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
